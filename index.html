@@ -44,7 +44,11 @@
                 <div class="sliderBg"></div>
                 <h1 class="sliderTitle">AIR MAX PLUS <br> WOLF <br> GREY</h1>
                 <h2 class="sliderPrice">$119</h2>
-                <button class="buyButton">BUY NOW!</button>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+
+                </a>
+
             </div>
             <div class="sliderItem">
                 <img src="./img/Adidas-Springblade.png" alt="" class="sliderImg">
@@ -53,29 +57,39 @@
                     <h1 class="sliderTitle">ADIDAS <br> SPRING <br> BLADE</h1>
                     <h2 class="sliderPrice">$149</h2>
                 </div>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
 
-                <button class="buyButton">BUY NOW!</button>
             </div>
             <div class="sliderItem">
                 <img src="./img/air-max-97.png" alt="" class="sliderImg" height="80%">
                 <div class="sliderBg"></div>
                 <h1 class="sliderTitle">NIKE <br> AIR MAX <br> 97</h1>
                 <h2 class="sliderPrice">$109</h2>
-                <button class="buyButton">BUY NOW!</button>
+                <a href="#product">
+
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
             </div>
             <div class="sliderItem">
                 <img src="./img/airmax-tw.png" alt="" class="sliderImg" height="45%">
                 <div class="sliderBg"></div>
                 <h1 class="sliderTitle">AIR MAX TW <br> NEW <br> SEASON</h1>
                 <h2 class="sliderPrice">$129</h2>
-                <button class="buyButton">BUY NOW!</button>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+
             </div>
             <div class="sliderItem">
                 <img src="./img/LEBRON20.png" alt="" class="sliderImg">
                 <div class="sliderBg"></div>
                 <h1 class="sliderTitle">LEBRON 20 <br> NEW <br> SEASON</h1>
                 <h2 class="sliderPrice">$99</h2>
-                <button class="buyButton">BUY NOW!</button>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
             </div>
 
         </div>
@@ -102,7 +116,7 @@
             <span class="featureDesc">Keep in youch via email and support system.</span>
         </div>
     </div>
-    <div class="product">
+    <div class="product" id="product">
         <img src="./img/airmax-plus.png" alt="" class="productImg">
         <div class="productDetails">
             <h1 class="productTitle">AIR MAX PLUS</h1>
@@ -121,6 +135,29 @@
             </div>
             <button class="productButton">BUY NOW!</button>
         </div>
+        <div class="payment">
+            <h1 class="payTitle">Personal Information</h1>
+            <label>Name and Surname</label>
+            <input type="text" placeholder="Fred Hampton" class="payInput">
+            <label>Phone Number</label>
+            <input type="text" placeholder="+1 (870) 863-9252" class="payInput">
+            <label>Adress</label>
+            <input type="text" placeholder="106 Douglas St Anna, Illinois(IL)" class="payInput">
+            <h1 class="payTitle">Card Information</h1>
+            <div class="cardIcons">
+                <img src="./img/visa.png" width="40" alt="visa-card" class="cardIcon">
+                <img src="./img/master.png" width="40" alt="mastercard" class="cardIcon">
+            </div>
+            <input type="password" class="payInput" placeholder="Card Number">
+            <div class="cardInfo">
+                <input type="text" placeholder="mm" class="payInput sm">
+                <input type="text" placeholder="yyy" class="payInput sm">
+                <input type="text" placeholder="cvv" class="payInput sm">
+            </div>
+            <button class="payButton">Checkout!</button>
+            <span class="close">X</span>
+        </div>
+
         <script src="app.js"></script>
 </body>
 
